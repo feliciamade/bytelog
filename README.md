@@ -1,3 +1,3 @@
 # bytelog
-<img width="909" alt="Screenshot 2025-06-10 023101" src="https://github.com/user-attachments/assets/4fac0227-e0b1-490e-85fe-92f6cfc2b800" />
+<img width="950" alt="Screenshot 2025-06-10 025848" src="https://github.com/user-attachments/assets/c440addc-640c-4f18-87c9-8fcaf02a7602" />
 ⭐ Bytelog 
