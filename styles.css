@@ -109,7 +109,7 @@ textarea:focus {
      background-color:#ffa669;
 }
 
-.notebook p {
+.scrollable-paragraph {
     color: rgb(76, 77, 92);
     font-size: 14px;
     overflow-y: scroll;
@@ -179,8 +179,12 @@ span {
     background-color: white;
 }
 
+.notes {
+    display: flex;
+    gap:20px;
+}
 
-.notes{
+.note{
     display: flex;
     justify-content: center;
     height:200px;
@@ -209,8 +213,7 @@ input:focus {
 
 .terms {
 
-    margin-top: 40px;
-    overflow: visible;
+    margin-top: 20px;
 }
 
 summary {
@@ -218,11 +221,11 @@ summary {
     align-items: center;
     justify-content: space-between;
     font-weight: 100;
+    width:450px;
 }
 
 details p {
-    height: 80px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     overflow: visible;
 }
 
@@ -234,7 +237,7 @@ h3 {
 .popup {
     position: absolute;
     top: 55%;
-    left: 37%;
+    left: 30%;
     transform: translate(-50%, -50%) rotate(-2deg); 
     z-index: 4;
     box-shadow: 2px 2px 10px rgba(3, 3, 66, 0.142);
@@ -277,7 +280,7 @@ h3 {
 }
 
 .card  {
-    width:300px;
+    width:420px;
     height:150px;
     background-color: #fff8e2;
     margin-top: 20px;
@@ -302,3 +305,44 @@ h3 {
     letter-spacing: 0.5px;
     border-radius: 30px;
 }
+
+canvas {
+    border: 1px solid #242828;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p {
+    color: rgb(86, 87, 100);
+    font-size: 14px;
+    scrollbar-color: #bdf0ff #ffffff;
+    padding-right: 15px;
+    font-weight: 100;
+   
+}
+
+
+
+.audio-icon-container {
+    position: absolute;
+    width:750px;
+    height:auto;
+    top:30px;
+    right:-650px;
+    display: inline-block;
+  }
+  
+  .audio-icon {
+
+    cursor: pointer;
+  }
+  
+  .audio-player {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+  
+  .audio-icon:hover {
+    opacity: 0.8;
+  }
