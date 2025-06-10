@@ -9,7 +9,8 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap:20px;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -185,36 +186,13 @@ span {
 .notes{
     display: flex;
     justify-content: center;
-    position: absolute;
     height:200px;
     width:200px;
     background-color: hsl(99, 100%, 84%);
-    transform: rotate(10deg);
-    right:-280px;
-    bottom:30px;
-    z-index: 1;
     padding:20px;
     border-radius: 5px;
     resize: none;
 }
-
-.notes_2{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    height:200px;
-    width:200px;
-    background-color: hsl(67, 100%, 90%);
-    transform: rotate(-10deg);
-    left:-280px;
-    bottom:30px;
-    z-index: 1;
-    padding:20px;
-    border-radius: 5px;
-    resize: none;
-}
-
-
 
 
 input {
@@ -258,8 +236,8 @@ h3 {
 
 .popup {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left: 40%;
     transform: translate(-50%, -50%) rotate(-2deg); 
     z-index: 4;
     box-shadow: 2px 2px 10px rgba(3, 3, 66, 0.142);
@@ -299,4 +277,13 @@ h3 {
 
 .popup p i {
     color:#ffdb65;
+}
+
+.card  {
+    width:300px;
+    height:150px;
+    background-color: #fff8e2;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:20px;
 }
