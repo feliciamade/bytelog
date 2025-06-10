@@ -150,11 +150,12 @@ span {
 
 .clover  {
     position: absolute;
-    width:800px;
+    width:900px;
     height:auto;
     z-index: 1;
     right:-780px;
-    top:10px;
+    top:90px;
+    transform: rotate(10deg);
 }
 
 .photo {
