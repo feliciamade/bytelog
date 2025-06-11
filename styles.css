@@ -32,9 +32,9 @@ position: relative;
 width:600px;
 height:450px;
 background-color: rgb(255, 255, 255);
-border-top: 13px solid #fecbff;
-border-left: 13px solid #fecbff;
-border-right: 13px solid #fecbff;
+border-top: 13px solid #CCCCFF;
+border-left: 13px solid #CCCCFF;
+border-right: 13px solid #CCCCFF;
 border-bottom: none;
 padding: 40px  80px;
 border-radius:10px 10px 0px 0px;
@@ -92,12 +92,12 @@ textarea:focus {
 }
 
 #module-1 {
-     background-color:#fecbff;
+     background-color:#CCCCFF;
 }
 
 
 #module-2 {
-    background-color:#bdf0ff;
+    background-color:#cbf3ff;
 }
 
 #module-3 {
@@ -106,7 +106,7 @@ textarea:focus {
 
 
 #module-4 {
-     background-color:#121f4f;
+     background-color:#242c2e;
 }
 
 .scrollable-paragraph {
@@ -127,7 +127,7 @@ p::-webkit-scrollbar {
 
 .notebook button {
     position: absolute;
-    background-color:#82e2ff;
+    background-color:#242c2e;
     padding:5px 20px;
     border:none;
     color:rgb(255, 255, 255);
@@ -239,7 +239,7 @@ h3 {
 
 .popup p {
     font-size: 14px;
-    color: #0f2450;
+    color: #242c2e;
     font-weight: 100;
     padding: 40px;
     
