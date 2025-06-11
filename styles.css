@@ -62,7 +62,7 @@ textarea {
   overflow-y: auto;
    font-family: area-normal, sans-serif;
    margin-left:5px;
-   color:rgb(67, 70, 81);
+   color:rgb(27, 34, 58);
    background-color: transparent;
 }
 textarea:focus {
@@ -110,7 +110,7 @@ textarea:focus {
 }
 
 .scrollable-paragraph {
-    color: rgb(76, 77, 92);
+    color: rgb(30, 31, 45);
     font-size: 14px;
     overflow-y: scroll;
     height: 250px;
@@ -189,7 +189,9 @@ span {
     justify-content: center;
     height:200px;
     width:200px;
-    background-color: hsl(99, 100%, 84%);
+   /* background-color: hsl(99, 100%, 84%);*/
+   background-image: url(Assets/Images/stars-01.jpg);
+   background-size: cover;
     padding:20px;
     border-radius: 5px;
     resize: none;
@@ -252,7 +254,7 @@ h3 {
 
 .popup p {
     font-size: 14px;
-    color: rgb(33, 46, 74);
+    color: #0f2450;
     font-weight: 100;
     padding: 40px;
     
@@ -283,7 +285,7 @@ h3 {
 .card  {
     width:420px;
     height:150px;
-    background-color: #fff8e2;
+    background-color: #eafaff;
     margin-top: 20px;
     border-radius: 5px;
     padding:20px;
@@ -313,14 +315,13 @@ canvas {
     cursor: pointer;
 }
 p {
-    color: rgb(86, 87, 100);
+    color: rgb(29, 32, 65);
     font-size: 14px;
     scrollbar-color: #bdf0ff #ffffff;
     padding-right: 15px;
     font-weight: 100;
    
 }
-
 
 
 .audio-icon-container {

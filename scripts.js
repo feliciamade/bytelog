@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
 
         ctx.lineWidth = 1;
         ctx.lineCap = "round";
-        ctx.strokeStyle = "#ff91ce"; 
+        ctx.strokeStyle = "#3258ab"; 
 
        
         ctx.lineTo(x,y);
