@@ -32,9 +32,9 @@ position: relative;
 width:600px;
 height:450px;
 background-color: rgb(255, 255, 255);
-border-top: 13px solid #ffc5e5;
-border-left: 13px solid #ffc5e5;
-border-right: 13px solid #ffc5e5;
+border-top: 13px solid #fecbff;
+border-left: 13px solid #fecbff;
+border-right: 13px solid #fecbff;
 border-bottom: none;
 padding: 40px  80px;
 border-radius:10px 10px 0px 0px;
@@ -92,7 +92,7 @@ textarea:focus {
 }
 
 #module-1 {
-     background-color:#ffaad9;
+     background-color:#fecbff;
 }
 
 
@@ -106,7 +106,7 @@ textarea:focus {
 
 
 #module-4 {
-     background-color:#ffa669;
+     background-color:#121f4f;
 }
 
 .scrollable-paragraph {
@@ -156,21 +156,6 @@ span {
     right:-780px;
     top:90px;
     transform: rotate(10deg);
-}
-
-.photo {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    height:250px;
-    width:200px;
-    background-color: #ffc5e5;
-    transform: rotate(-10deg);
-    left:-300px;
-    bottom:20px;
-    z-index: 1;
-    padding:15px;
-    border-radius: 2px;
 }
 
 .image {
